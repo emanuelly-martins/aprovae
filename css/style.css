@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(183, 183, 254);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 20px;
+}
+
+.botao {
+    background-color: #5959ec;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.botao:hover {
+    background-color: rgb(30, 30, 233);
+}
