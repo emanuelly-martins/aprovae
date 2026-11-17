@@ -1,56 +1,77 @@
 * {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header {
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: rgb(168, 168, 238);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #c8deff;;
+    color: #103060;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
 }
 
-
-#logo-aprovae {
-  height: 125px;
-  width: 220px;
+#logo {
+ padding-right: 55px;
 }
 
-
-#menu-header {
-  flex-direction: row;
-  display: flex;
-  gap: 10px;
-  width: 21%;
-  text-align: center;
+#logo-img img {
+    width: 100%;
+    height: 120px;
 }
 
-#botao-contato {
-  padding-right: 40px;
+#menu {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+    width: 30%;
 }
 
-.botao-menu {
-  text-decoration: none;
-  background-color: rgb(81, 81, 255);
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  transition: all 0.3s ease-in-out;
+#menu a {
+    background-color: #103060;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
 }
 
-
-.botao-menu:hover {
-  background-color: rgb(52, 52, 231);
+#menu a:hover {
+    background-color: #4039cb;
 }
 
+#contato {
+    width: 33%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+#contato a {
+    background-color:#103060;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#contato a:hover {
+    background-color:#4039cb;
+}
 
 #introducao-materias {
   text-align: center;
@@ -135,7 +156,8 @@ header {
 
 
 footer {
-    background-color:rgb(168, 168, 238);
+    background-color: #c8deff;
+    color: #103060;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 50px;
