@@ -6,7 +6,6 @@
 
 body {
     background-color: white;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 header {
@@ -33,16 +32,18 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 16px;
+    gap: 10px;
     width: 33%;
 }
 
 #menu a {
     background-color: #103060;
-    padding: 5px;
+    padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
     color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 #menu a:hover {
@@ -57,14 +58,17 @@ header {
     width: 33%;
     text-align: right;
     padding-right: 50px;
+    margin-left: 85px;
 }
 
 #contato a {
     background-color:#103060;
-    padding: 5px;
+    padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
     color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 #introducao {
