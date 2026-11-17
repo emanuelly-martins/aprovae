@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 20px;
+}
+
+header {
+    background-color: #c8deff;
+    color: #103060;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+#logo-header img {
+    width: 200px;
+}
+
+main {
+    padding: 10px;
+}
+
+.botao {
+    background-color: #103060;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #4039cb;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#img-hero img {
+    width: 300px;
+    padding: 20px;
+}
+#texto-hero h1 {
+    font-size: 30px;
+}
+
+#texto-hero p {
+    font-size: 20px;
+}
+
+#galeria-imgs {
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(127, 246, 255);
+    margin-top: 20px;
+    overflow-x: hidden;
+}
+
+.card img {
+    width: 240px;
+    padding: 20px;
+    animation-name: moverParaDireitaSuave;
+    animation-duration: 15s;
+}
+
+.card-texto {
+    text-align: center;
+    margin-bottom: 20px;
+    animation-name: moverParaDireitaSuave;
+    animation-duration: 15s;
+}
+
+#anima {
+    animation-name: moverParaDireitaSuave;
+    animation-duration: 15s;
+    animation-direction: alternate;
+}
+
+@keyframes moverParaDireitaSuave {
+    0% {transform: translateX(800%);}
+    110% {transform: translateX(-110%);}
+}
