@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #cde6f8;
+    background-color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -65,4 +65,30 @@ header {
     border-radius: 8px;
     text-decoration: none;
     color: white;
+}
+
+#introducao {
+    background-color: #071f3a;
+    color: #96cce3;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#introducao h2 {
+    font-size: 50px;
+}
+
+#texto {
+    color: white;
+}
+
+#introducao #intro-img img {
+    width: 500px;
+    height: 250px;
+    margin-bottom: 10px;
 }
