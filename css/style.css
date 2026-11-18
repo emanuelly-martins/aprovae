@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+main {
+    padding: 10px;
+}
+
 header {
     background-color: #c8deff;
     color: #103060;
@@ -17,8 +21,11 @@ header {
     height: 120px;
 }
 
-main {
-    padding: 10px;
+body {
+    background-image:
+        linear-gradient(to left, rgb(0, 0, 0), rgba(0, 60, 255, 0.199)),
+        url("/assets/img/fundo-inicial.png");
+    background-position: center;
 }
 
 #botoes-header {
@@ -28,7 +35,7 @@ main {
 
 #botao-contato {
     margin-right: 40px;
-} 
+}
 
 .botao {
     background-color: #103060;
@@ -53,7 +60,7 @@ h2 {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
-    background-color: #e9f2fc;
+    background-color: #e9f2fcb2;
     border: 3px solid #143a72;
     border-radius: 5px;
 }
@@ -92,13 +99,18 @@ span {
 .article-tres-temas {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 20px;
     width: 30%;
-    background-color: #30b879e4;
+    background-color: #3853acd5;
     color: #ffffff;
     border-radius: 20px;
+}
+
+.article-tres-temas p {
+    width: 100%;
+    overflow-wrap: break-word;
 }
 
 .article-tres-temas h3 {
