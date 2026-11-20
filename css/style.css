@@ -24,7 +24,7 @@ header {
 body {
     background-image:
         linear-gradient(to left, rgb(0, 0, 0), rgba(0, 60, 255, 0.199)),
-        url("/assets/img/fundo-inicial.png");
+        url("../assets/img/fundo-inicial.png");
     background-position: center;
 }
 
