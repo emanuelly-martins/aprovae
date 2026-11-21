@@ -5,7 +5,8 @@
 }
 
 main {
-    padding: 10px;
+    background-color: #020f29;
+    padding: 20px;
 }
 
 header {
@@ -21,11 +22,13 @@ header {
     height: 120px;
 }
 
-body {
+#section-apresentacao {
+    padding: 10px;
     background-image:
         linear-gradient(to left, rgb(0, 0, 0), rgba(0, 60, 255, 0.199)),
         url("../assets/img/fundo-inicial.png");
     background-position: center;
+    border-radius: 5px;
 }
 
 #botoes-header {
@@ -56,9 +59,9 @@ h2 {
 }
 
 #section-intro {
-    height: 350px;
-    margin-top: 40px;
+    min-height: 350px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #e9f2fcb2;
     border: 3px solid #143a72;
@@ -85,6 +88,7 @@ span {
 
 #img-livros {
     width: 50%;
+    max-width: 100%;
 }
 
 #tres-temas {
@@ -93,7 +97,8 @@ span {
     justify-content: space-between;
     padding: 20px;
     border-radius: 5px;
-    background-image: url(../assets/img/fundo-thi.png);
+    background-color: #000000a9;
+    border: 3px solid #143a72;
 }
 
 .article-tres-temas {
@@ -118,11 +123,58 @@ span {
     padding-bottom: 10px;
 }
 
+#section-outras-paginas {
+    margin-top: 60px;
+    background:
+        linear-gradient(to right, rgba(254, 255, 255, 0.726), rgb(96, 150, 250));
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.article-outras-paginas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #3853ac;
+    padding: 5px;
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    border: 3px solid #143a72;
+}
+
+.article-outras-paginas h3 {
+    font-size:larger;
+}
+
+.botao-chamativo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 5px;
+    background-color: #eef2ff;
+    color: #024692;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.botao-chamativo:hover {
+    color: rgb(253, 255, 253);
+    background-color: #020122;
+}
+
 footer {
     background-color: #c8deff;
     color: #103060;
     padding: 10px;
-    margin-top: 40px;
 }
 
 #section-footer {
