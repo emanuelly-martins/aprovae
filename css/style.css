@@ -23,7 +23,8 @@ header {
 }
 
 #section-apresentacao {
-    padding: 10px;
+   
+    padding: 20px 10px;
     background-image:
         linear-gradient(to left, rgb(0, 0, 0), rgba(0, 60, 255, 0.199)),
         url("../assets/img/fundo-inicial.png");
@@ -59,13 +60,17 @@ h2 {
 }
 
 #section-intro {
-    min-height: 350px;
+    height: 450px;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #e9f2fcb2;
     border: 3px solid #143a72;
     border-radius: 5px;
+}
+
+#img-livros {
+    width: 50%
 }
 
 span {
@@ -86,10 +91,6 @@ span {
     padding: 10px 0px;
 }
 
-#img-livros {
-    width: 50%;
-    max-width: 100%;
-}
 
 #tres-temas {
     margin-top: 50px;
@@ -97,7 +98,7 @@ span {
     justify-content: space-between;
     padding: 20px;
     border-radius: 5px;
-    background-color: #000000a9;
+    background-color: #00000096;
     border: 3px solid #143a72;
 }
 
@@ -119,18 +120,19 @@ span {
 }
 
 .article-tres-temas h3 {
-    color: #ffffff;
+    font-size:larger;
+    color: #000829;
     padding-bottom: 10px;
 }
 
 #section-outras-paginas {
-    margin-top: 60px;
+    margin: 60px 0px;
     background:
-        linear-gradient(to right, rgba(254, 255, 255, 0.726), rgb(96, 150, 250));
-    padding: 10px;
+        linear-gradient(to right, rgb(255, 255, 255), rgb(206, 222, 255));
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     border-radius: 5px;
 }
 
@@ -138,7 +140,7 @@ span {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: #3853ac;
+    background-color: #3578ff5b;
     padding: 5px;
     max-width: 100%;
     height: auto;
