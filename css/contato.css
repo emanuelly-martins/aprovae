@@ -71,6 +71,11 @@ header {
     font-size: larger;
 }
 
+#article-dentro-intro {
+    background-color: #f0f3ff;
+    padding: 5px;
+}
+
 #p-maiusculo {
     color: rgb(29, 76, 184);
     text-transform: uppercase;
@@ -97,9 +102,11 @@ dt {
 }
 
 form {
+    width: 300px;
     background-color: #103060;
     color: #f0f3ff;
     padding: 20px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
