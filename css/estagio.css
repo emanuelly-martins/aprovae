@@ -71,10 +71,15 @@ span {
 }
 
 #cursos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 50px;
 }
+
+
 #materias {
     padding: 20px;
     display: flex;
