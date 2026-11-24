@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+body {
+    background-color: #f0f3ff;
+}
+
+header {
+    background-color: #c8deff;
+    color: #103060;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 100%;
+    height: 120px;
+}
+
+#botoes-header {
+    display: flex;
+    gap: 10px;
+}
+
+#botao-contato {
+    margin-right: 40px;
+}
+
+.botao {
+    background-color: #103060;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #4039cb;
+}
+
+#section-intro {
+    background-color: rgb(205, 222, 255);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#contato {
+    width: 40%;
+    object-fit: contain;
+}
+
+#article-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    color: #001032;
+    font-size: larger;
+}
+
+#p-maiusculo {
+    color: rgb(29, 76, 184);
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #103060;
+    font-size: 60px;
+}
+
+dl {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+dt {
+    text-transform: uppercase;
+}
+
+.icones {
+    width: 15px;
+    margin-left: 5px;
+}
+
+form {
+    background-color: #103060;
+    color: #f0f3ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
