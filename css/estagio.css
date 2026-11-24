@@ -83,6 +83,9 @@ span {
     justify-content: center;
 }
 
+#intro-card {
+    padding-left: 40px;
+}
 .vagas {
     padding-left: 7px;
     background-color: #c8deff;
