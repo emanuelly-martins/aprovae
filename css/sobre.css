@@ -89,7 +89,8 @@ main {
     animation-direction: alternate;
 }
 
-@keyframes moverParaDireitaSuave {
+
+@keyframes moverParaDireitaSuave{
     0% {transform: translateX(800%);}
     110% {transform: translateX(-110%);}
 }
