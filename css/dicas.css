@@ -87,7 +87,7 @@ a {
     height: 200px;
     width: 400px;
     text-align: center;
-    background-color:  #a1cbdd;
+    background-color:  #a1cbddcf;
     border-radius: 12px;
     padding: 50px;
     padding-top: 20px;
@@ -97,10 +97,40 @@ a {
     color:black;
 }
 
-#texto {
+.texto-dicas {
+    font-size: 15px;
+}
+
+#vestibular {
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.card-vestibular {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    background-color:  #a1cbddcf;
+    border-radius: 12px;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+.texto-vestibular {
+    font-size: 15px;
+}
+
+#vest {
+    text-align: center;
+    font-size: 30px;
     margin-top: 20px;
 }
 
-.texto-dicas {
-    font-size: 15px;
+#texto1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
 }
