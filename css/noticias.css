@@ -19,6 +19,9 @@ header {
     align-items: center;
 }
 
+main{
+    border-radius: 30%;
+}
 
 #logo-img img {
     width: 100%;
@@ -121,4 +124,97 @@ header {
     font-size: 18px;
     line-height: 1.4;
     color: #f0f0f0;
+}
+
+h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #103060;
+
+}
+
+.card a {
+    background-color: #103060;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #c8deff;
+    margin-top: auto;
+}
+
+.card-description {
+
+    flex-direction: column;
+    height: 100%;
+}
+
+.card {
+    background-color: white;
+    width: 35%;
+    padding-bottom: 50px;
+    margin: 0%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #b8d3ff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.card p {
+    margin: 10px;
+    font-size: 15px;
+}
+
+
+
+.cards-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer {
+    background-color: #c8deff;
+    color: #103060;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.botao {
+    background-color: #103060;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+
+
+
+.botao:hover {
+    background-color: #4039cb;
+}
+
+#section-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+
+#section-footer h4 {
+    margin-bottom: 10px;
 }
