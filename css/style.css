@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #020f29;
+    padding: 20px;
+}
+
+header {
+    background-color: #c8deff;
+    color: #103060;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 100%;
+    height: 120px;
+}
+
+#section-apresentacao {
+   
+    padding: 20px 10px;
+    background-image:
+        linear-gradient(to left, rgb(0, 0, 0), rgba(0, 60, 255, 0.199)),
+        url("../assets/img/fundo-inicial.png");
+    background-position: center;
+    border-radius: 5px;
+}
+
+#botoes-header {
+    display: flex;
+    gap: 10px;
+}
+
+#botao-contato {
+    margin-right: 40px;
+}
+
+.botao {
+    background-color: #103060;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #4039cb;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+#section-intro {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9f2fcb2;
+    border: 3px solid #143a72;
+    border-radius: 5px;
+}
+
+#img-livros {
+    width: 50%
+}
+
+span {
+    color: #3853ac;
+}
+
+#escrita-article {
+    color: #0c163b;
+    padding: 20px;
+}
+
+#escrita-article h2 {
+    font-size: 60px;
+}
+
+#escrita-article p {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+
+#tres-temas {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #00000096;
+    border: 3px solid #143a72;
+}
+
+.article-tres-temas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    width: 30%;
+    background-color: #3853acd5;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.article-tres-temas p {
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+.article-tres-temas h3 {
+    font-size:larger;
+    color: #000829;
+    padding-bottom: 10px;
+}
+
+#section-outras-paginas {
+    margin: 60px 0px;
+    background:
+        linear-gradient(to right, rgba(255, 255, 255, 0.781), rgb(206, 222, 255));
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 5px;
+}
+
+.article-outras-paginas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #3578ff5b;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 3px solid #143a72;
+}
+
+.article-outras-paginas h3 {
+    font-size:larger;
+}
+
+.botao-chamativo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6%;
+    height: 5px;
+    background-color: #eef2ff;
+    color: #024692;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.botao-chamativo:hover {
+    color: rgb(253, 255, 253);
+    background-color: #020122;
+}
+
+footer {
+    background-color: #c8deff;
+    color: #103060;
+    padding: 10px;
+}
+
+#section-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+#section-footer h4 {
+    margin-bottom: 10px;
+}
