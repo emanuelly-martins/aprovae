@@ -66,19 +66,28 @@ span {
     width: 70%;
 }
 
-#painel {
-    background-color: #c8deff;
-}
+
+
 
 #cursos {
+    background-color: #c8deff;
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-bottom: 50px;
 }
 
+#cursos img {
+    height: 45px;
+    width: 65px;
+}
+
+.painel {
+    display: flex;
+    text-align: center;
+}
 
 #materias {
     padding: 20px;
@@ -91,6 +100,7 @@ span {
 #intro-card {
     padding-left: 45px;
 }
+
 .vagas {
     border-radius: 5px;
     padding-left: 7px;
