@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <title>Contato</title>
     <link rel="stylesheet" href="../css/contato.css" />
+    <script src="feedback.js" defer></script>
 </head>
 
 <body>
@@ -57,7 +58,7 @@
                 </div>
                 </dl>
 
-                <form>
+                <form id="formulario">
                     <label for="nota">Como foi sua experiência?</label>
                     <select id="nota" name="nota">
                         <option>★</option>
@@ -70,6 +71,8 @@
                     <label for="feedback">Feedback</label>
                     <textarea id="feedback" name="feedback" rows="6"
                         placeholder="Nos dê sua opnião sobre o site"></textarea>
+
+                <button id="botaoEnviar" type="submit">Enviar</button>
 
                 </form>
 
