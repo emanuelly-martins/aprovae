@@ -71,6 +71,10 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
+#contato a:hover {
+    background-color: #4039cb;
+}
+
 #introducao {
     background-color: #071f3a;
     color: #96cce3;
