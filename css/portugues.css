@@ -151,6 +151,10 @@ header {
     background-color: #4039cb;
 }
 
+#contato a:hover {
+    background-color: #4039cb;
+}
+
 
 footer {
     background-color: #c8deff;
