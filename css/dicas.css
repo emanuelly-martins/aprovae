@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #c8deff;
+    color: #103060;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+#logo-header img {
+    width: 200px;
+}
+
+main {
+    padding: 10px;
+}
+
+.botao {
+    background-color: #103060;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #4039cb;
+}
+
+#dic {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#galeria-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    background-color:  #103060;
+    padding-top: 50px;
+    border-radius: 12px;
+}
+
+button {
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #7da7e5;
+    margin-top: 5px;
+    text-decoration: none;
+    color:#fff
+}
+
+button:hover {
+    background-color: #6394de;
+}
+
+.card-texto {
+    color:#fff;
+}

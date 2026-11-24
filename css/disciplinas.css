@@ -1,0 +1,158 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: #c8deff;
+    color: #103060;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#logo {
+    width: 100%;
+    height: 120px;
+}
+
+
+main {
+    padding: 10px;
+}
+
+
+#botoes-header {
+    display: flex;
+    gap: 10px;
+}
+
+
+#botao-contato {
+    margin-right: 40px;
+} 
+
+
+.botao {
+    background-color: #103060;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+
+.botao:hover {
+    background-color: #4039cb;
+}
+
+#introducao-materias {
+  background-color: #103060;
+  text-align: center;
+  color: #c8deff;
+  border-radius: 5px;
+  padding: 80px ;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+#materias {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+#container-historia {
+  color: white; 
+  text-align: center;
+  padding: 100px;
+  background-image: url(../assets/img/historia.png);
+  width: 500px;
+  height: 325px;
+  border-radius: 10px;
+}
+
+
+#container-portugues {
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 100px;
+  background-image: url(../assets/img/portugues.png);
+  width: 500px;
+  height: 325px;
+}
+
+#container-historia p {
+    margin-bottom: 40px;
+}
+
+#container-portugues p {
+    margin-bottom: 40px;
+}
+
+#historia {
+  border-radius: 8px;
+  padding: 20px;
+  background-color: rgba(190, 216, 255, 0.5);
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.title-materia {
+    margin-bottom: 20px;
+    background-color: #c8deff;
+    color: black;
+    border-radius: 5px;
+}
+
+#portugues {
+  border-radius: 8px;
+  padding: 20px;
+  background-color: rgba(190, 216, 255, 0.5);
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#historia:hover {
+   background-color: rgba(134, 171, 226, 0.5);
+}
+
+#portugues:hover {
+    background-color: rgba(134, 171, 226, 0.5);
+}
+
+footer {
+    background-color: #c8deff;
+    color: #103060;
+    padding: 10px;
+    margin-top: 40px;
+    
+}
+
+#section-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    align-items: center;
+}
+#section-footer h4 {
+    margin-bottom: 10px;
+}
