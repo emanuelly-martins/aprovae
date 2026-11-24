@@ -129,33 +129,33 @@ main{
 h3 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #103060;
-
 }
 
 .card a {
     background-color: #103060;
-    padding: 5px;
+    padding: 20px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 10px;
     color: #c8deff;
     margin-top: auto;
+    text-align: center;
 }
 
 .card-description {
-
+    display: flex;
     flex-direction: column;
     height: 100%;
 }
 
 .card {
-    background-color: white;
+    background-color: #b8d3ff;
     width: 35%;
-    padding-bottom: 50px;
-    margin: 0%;
+    padding: 15px 15px 25px 15px;
     border-radius: 10px;
     overflow: hidden;
-    background-color: #b8d3ff;
+    display: flex;
+    flex-direction: column;
 }
 
 .card img {
@@ -170,7 +170,7 @@ h3 {
 }
 
 .card p {
-    margin: 10px;
+    margin: 20px;
     font-size: 15px;
 }
 
@@ -200,10 +200,6 @@ footer {
     transition: all 0.3s ease-in-out;
     text-decoration: none;
 }
-
-
-
-
 .botao:hover {
     background-color: #4039cb;
 }
