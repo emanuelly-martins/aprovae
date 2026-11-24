@@ -59,9 +59,13 @@ header {
 
 #contato {
     width: 40%;
+    object-fit: contain;
 }
 
 #article-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding: 20px;
     color: #001032;
     font-size: larger;
