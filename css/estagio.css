@@ -1,0 +1,136 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: #c8deff;
+    color: #103060;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#logo {
+    width: 100%;
+    height: 120px;
+}
+
+#botoes-header {
+    display: flex;
+    gap: 10px;
+}
+
+
+#botao-contato {
+    margin-right: 40px;
+} 
+
+
+.botao {
+    background-color: #103060;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+
+.botao:hover {
+    background-color: #4039cb;
+}
+
+span {
+    color: #c8deff;
+}
+#intro-estagio {
+    padding: 50px 30px;
+    background-color: #103060;
+}
+
+#intro-estagio p {
+    color: #c8deff;
+}
+
+#intro-estagio h2 {
+    font-size: 60px;
+    width: 70%;
+}
+
+#painel {
+    background-color: #c8deff;
+}
+
+#cursos {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+#materias {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.vagas {
+    padding-left: 7px;
+    background-color: #c8deff;
+    align-items: center;
+    width: 45%;
+    padding-bottom: 12px;    
+}
+
+.vagas img {
+    height: 80px;
+    width: 80px;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+}
+
+.topo h4 {
+    width: 60%;
+}
+
+#descricao p {
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #c8deff;
+    color: #103060;
+    padding: 10px;
+    margin-top: 40px;
+    
+}
+
+#section-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    align-items: center;
+}
+#section-footer h4 {
+    margin-bottom: 10px;
+}
