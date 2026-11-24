@@ -110,3 +110,19 @@ form {
     flex-direction: column;
     gap: 10px;
 }
+
+footer {
+    background-color: #c8deff;
+    color: #103060;
+    padding: 10px;
+}
+
+#section-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+#section-footer h4 {
+    margin-bottom: 10px;
+}
