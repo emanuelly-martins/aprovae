@@ -56,21 +56,51 @@ main {
     background-color:  #103060;
     padding-top: 50px;
     border-radius: 12px;
+    background-image: url("../assets/img/biblioteca.jpg");
 }
 
-button {
-    border-radius: 12px;
-    padding: 12px;
-    background-color: #7da7e5;
-    margin-top: 5px;
+a {
     text-decoration: none;
-    color:#fff
-}
-
-button:hover {
-    background-color: #6394de;
+    color:#fff;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #7da7e5;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    font-size: 15px;
 }
 
 .card-texto {
     color:#fff;
+    font-size: 25px;
+}
+
+#dicas {
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.card-dicas {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    background-color:  #a1cbdd;
+    border-radius: 12px;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+.card-dicas {
+    color:black;
+}
+
+#texto {
+    margin-top: 20px;
+}
+
+.texto-dicas {
+    font-size: 15px;
 }
