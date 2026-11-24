@@ -89,14 +89,15 @@ span {
 }
 
 #intro-card {
-    padding-left: 40px;
+    padding-left: 45px;
 }
 .vagas {
+    border-radius: 5px;
     padding-left: 7px;
     background-color: #c8deff;
     align-items: center;
     width: 45%;
-    padding-bottom: 12px;    
+    padding: 10px;    
 }
 
 .vagas img {
