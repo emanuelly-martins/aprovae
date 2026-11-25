@@ -50,7 +50,7 @@ span {
 }
 
 #intro-estagio {
-    padding: 50px 30px;
+    padding: 100px 40px;
     background-color: #103060;
 }
 
@@ -86,6 +86,7 @@ span {
 }
 
 #materias {
+    background-color: #9eb0ca;
     margin-bottom: 100px;
     padding: 20px;
     display: flex;
@@ -93,9 +94,11 @@ span {
     gap: 50px;
     justify-content: center;
 }
+
 #intro-card {
     padding-left: 45px;
 }
+
 .vagas {
     border-radius: 5px;
     padding-left: 7px;
@@ -104,20 +107,25 @@ span {
     width: 45%;
     padding: 10px;    
 }
+
 .vagas img {
     height: 80px;
     width: 80px;
 }
+
 .topo {
     display: flex;
     align-items: center;
 }
+
 .topo h4 {
     width: 60%;
 }
+
 .descricao p {
     padding-left: 10px;
 }
+
 footer {
     background-color: #c8deff;
     color: #103060;
@@ -125,12 +133,14 @@ footer {
     margin-top: 40px;
     
 }
+
 #section-footer {
     display: flex;
     justify-content: space-between;
     padding: 10px 5px;
     align-items: center;
 }
+
 #section-footer h4 {
     margin-bottom: 10px;
 }
