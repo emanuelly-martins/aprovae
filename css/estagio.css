@@ -66,27 +66,26 @@ span {
     width: 70%;
 }
 
-
-
-
 #cursos {
     background-color: #c8deff;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 50px;
 }
 
+
 #cursos img {
-    height: 45px;
-    width: 65px;
+    height: 80px;
+    width: 60px;
 }
 
 .painel {
     display: flex;
-    text-align: center;
+    align-items: center;
+    gap: 15px;
 }
 
 #materias {
