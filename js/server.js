@@ -1,11 +1,16 @@
+// Trazendo as funções facilitadoras do express
 import express from 'express';
+
+// Trazendo a função de escrita em arquivo e criação de pastas
 import { writeFile, mkdir } from 'node:fs/promises';
 
 // Criando uma pasta com mkdir através da URL, e salvando-a na const pasta
 const pasta = await mkdir(new URL('./data/'), import.meta.url, { recursive: true });
 
+// Porta que o servidor vai usar
 const porta = 3000
 
+// Atribuindo o express na constante app
 const app = express();
 
 app.use(express.json());
