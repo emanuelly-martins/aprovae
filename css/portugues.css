@@ -87,9 +87,6 @@ header {
     font-size: 50px;
 }
 
-#texto {
-    color: white;
-}
 
 #introducao #intro-img img {
     width: 500px;
@@ -109,8 +106,8 @@ header {
 
 
 .card {
-    background-color: #103060;
-    color: white;
+    background-color: #071f3a;
+    color:  white;
     width: 30%;
     padding: 20px;
     text-align: center;
@@ -118,6 +115,62 @@ header {
 }
 
 
+.card .botao-materia {
+    margin-top: 20px;
+}
+
+
 .card h4 {
     font-size: 18px;
+}
+
+
+.card a {
+    padding-top: 90px;
+    background-color:#669ae8;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.botao {
+    background-color: #103060;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+
+.botao:hover {
+    background-color: #4039cb;
+}
+
+#contato a:hover {
+    background-color: #4039cb;
+}
+
+
+footer {
+    background-color: #c8deff;
+    color: #103060;
+    padding: 10px;
+    margin-top: 40px;
+    
+}
+
+
+#section-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    align-items: center;
+}
+#section-footer h4 {
+    margin-bottom: 10px;
 }

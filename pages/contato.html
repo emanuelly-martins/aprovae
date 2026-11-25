@@ -1,15 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Carreiras</title>
-        <link rel="stylesheet" href="../css/contato.css" />
-    </head>
-    <body>
-        <header></header>
 
-        <main></main>
+<head>
+    <meta charset="UTF-8" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/contato.css" />
+    <script src="feedback.js" defer></script>
+</head>
 
-        <footer></footer>
-    </body>
+<body>
+    <header id="topo">
+        <section>
+            <img id="logo" src="../assets/img/logo.png" alt="logo do site aprovaê" />
+        </section>
+
+        <section id="botoes-header">
+            <a href="../index.html" class="botao">Início</a>
+            <a href="sobre.html" class="botao">Sobre nós</a>
+            <a href="disciplinas.html" class="botao">Matérias</a>
+        </section>
+
+        <section>
+            <a id="botao-contato" href="pages/contato.html" class="botao">Entrar em contato</a>
+        </section>
+    </header>
+
+    <main>
+        <section id="section-intro">
+            <img id="contato" src="../assets/img/contato.png" alt="imagem ilustrativa de uma assistente" />
+
+            <article id="article-intro">
+                <article id="article-dentro-intro">
+                    <p id="p-maiusculo"><strong>comunicação</strong></p>
+                    <h1>Contato</h1>
+
+                    <dl>
+                        <div>
+                            <dt>✉️E-mail</dt>
+                            <dd>aprovae@gmail.com</dd>
+                        </div>
+
+                        <div>
+                            <dt>📱Telefone</dt>
+                            <dd>(11) 90000-0000</dd>
+                        </div>
+
+                        <div>
+                            <dt>
+                                <img class="icones" src="../assets/img/instagram.png" alt="Ícone do Instagram" />
+                                Instagram
+                            </dt>
+                            <dd>@aprovae_estudos</dd>
+                </article>
+
+
+
+                </div>
+                </dl>
+
+                <form id="formulario">
+                    <label for="nota">Como foi sua experiência?</label>
+                    <select id="nota" name="nota">
+                        <option>★</option>
+                        <option>★★</option>
+                        <option>★★★</option>
+                        <option>★★★★</option>
+                        <option>★★★★★</option>
+                    </select>
+
+                    <label for="feedback">Feedback</label>
+                    <textarea id="feedback" name="feedback" rows="6"
+                        placeholder="Nos dê sua opnião sobre o site"></textarea>
+
+                <button id="botaoEnviar" type="submit">Enviar</button>
+
+                </form>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <section id="section-footer">
+            <article>
+                <h4>Aprovaê</h4>
+                <p>Projeto desenvolvido para fins educacionais.</p>
+            </article>
+
+            <article>
+                <h4>Créditos</h4>
+                <p>Thiago • Emanuelly • Pamela • Kevin • Letícia • Maria • Gabriela • Paloma</p>
+
+            </article>
+
+            <article>
+                <h4>Navegação</h4>
+                <a href="#topo" class="botao">Voltar ao topo</a>
+            </article>
+        </section>
+
+
+    </footer>
+</body>
+
 </html>

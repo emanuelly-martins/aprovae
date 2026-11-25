@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #c8deff;
+    color: #103060;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+#logo-header img {
+    width: 200px;
+}
+
+main {
+    padding: 10px;
+}
+
+.botao {
+    background-color: #103060;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #4039cb;
+}
+
+#dic {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#galeria-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    background-color:  #103060;
+    padding-top: 50px;
+    border-radius: 12px;
+    background-image: url("../assets/img/biblioteca.jpg");
+}
+
+a {
+    text-decoration: none;
+    color:#fff;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #7da7e5;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.card-texto {
+    color:#fff;
+    font-size: 25px;
+}
+
+#dicas {
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.card-dicas {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    background-color:  #a1cbddcf;
+    border-radius: 12px;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+.card-dicas {
+    color:black;
+}
+
+.texto-dicas {
+    font-size: 15px;
+}
+
+#vestibular {
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.card-vestibular {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    background-color:  #a1cbddcf;
+    border-radius: 12px;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+.texto-vestibular {
+    font-size: 15px;
+}
+
+#vest {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#texto1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
