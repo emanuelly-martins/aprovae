@@ -1,5 +1,4 @@
 import express from 'express';
-import { error } from 'node:console';
 import { writeFile, mkdir } from 'node:fs/promises';
 
 // Criando uma pasta com mkdir através da URL, e salvando-a na const pasta
