@@ -1,8 +1,3 @@
-import { writeFile, mkdir } from 'node:fs/promises';
-
-// Criando uma pasta com mkdir através da URL, e salvando-a na const pasta
-const pasta = await mkdir(new URL('./data/'), import.meta.url, { recursive: true });
-
 // Criando uma constante para referenciar o form do html, pelo id
 const form = document.getElementById('formulario');
 
@@ -15,33 +10,33 @@ const resposta = document.getElementById('feedback');
 // Constante criada para representar o botão de envio
 const botao = document.getElementById('botaoEnviar');
 
-// Armazenando os dados enviados
+// Armazenando os dados recebidos
 const dados = {
     nota: stars.values,
     feedback: resposta.values
 };
 
-// Conectando o feedback.js com o server.js
+// Conectando o feedback.js com o server.js através do fetch (que manda esses dados para lá)
 const conexao = await fetch('/feedback', {
+
     // O método de requisição, POST, pois estamos enviando os dados obtidos do usuário para o servidor
     method: 'POST',
-    // Isso diz que está sendo enviados dados em json
+
+    // Isso diz que estão sendo enviados dados em json
     headers: {
         'Content-Type': 'application/json'
     },
+
     // Esse body representa os dados obtidos em formato de string json
-    body: JSON.stringify(dados)
+    body: JSON.stringify(dados, null, 2)
 });
 
-
+// Isso irá ouvir quando o botão de enviar for clicado (submit)
 form.addEventListener('submit', async (evento) => {
+    // Irá tentar enviar um alert, se não der certo retorna erro
     try {
-        writeFile(`${pasta}/resposta.json`, JSON.stringify(dados, null, 2), 'utf-8');
-
         alert('Obrigado pelo feedback!');
-
     } catch (error) {
         console.error(error);
     };
 });
-
