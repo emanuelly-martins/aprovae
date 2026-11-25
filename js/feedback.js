@@ -1,21 +1,27 @@
-import {readFile, writeFile, mkdir} from 'node:fs/promises'
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 
-const form = document.getElementById(formulario);
+const pasta = await mkdir(new URL('./data/resposta.json/'), import.meta.url, { recursive: true });
 
-const stars = document.getElementById(nota);
+const form = document.getElementById('formulario');
 
-const resposta = document.getElementById(feedback);
+const stars = document.getElementById('nota');
 
-const botao = document.getElementById(botaoEnviar);
+const resposta = document.getElementById('feedback');
+
+const botao = document.getElementById('botaoEnviar');
 
 
-const pasta = await mkdir (new URL ('./data/resposta.json/'), import.meta.url, {recursive: true});
+form.addEventListener('submit', async (evento) => {
+    try {
+        const dados = {
+            nota: stars,
+            feedback: resposta
+        };
 
-try {
-    if (botao = true) {
-        writeFile('pasta', 'resposta', 'utf-8');
-        return 'Obrigado!'
+        writeFile('pasta', JSON.stringify(dados), 'utf-8');
+    } catch (error) {
+        
     }
-} catch (error) {
-    console.error()
-}
+})
+
+
