@@ -13,9 +13,13 @@ const porta = 3000
 // Atribuindo o express na constante app
 const app = express();
 
+// Permite o envio de dados json
 app.use(express.json());
+
+
 app.use(express.static('public'));
 
+// Criando uma requisição do tipo post para receber os dados que o feedback.js conseguiu
 app.post('/feedback', (req, res) => {
     try {
         if (conexao.ok) {
